@@ -133,6 +133,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="EgitimNotlari\multi-column-forms.html" />
     <Content Include="EgitimNotlari\Notlar.txt" />
+    <Content Include="EgitimNotlari\tabbed.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

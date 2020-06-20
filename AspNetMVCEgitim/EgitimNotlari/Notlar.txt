@@ -2,5 +2,3 @@
 
 AspNetMVCEgitim -> metronic -> index.html
 
-2- 
-
