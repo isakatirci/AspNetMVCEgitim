@@ -1,4 +1,17 @@
-﻿1- Demo tema:
+﻿1- 
 
-AspNetMVCEgitim -> metronic -> index.html
+/metronic/index.html
 
+2-
+
+/metronic/features/cards/tabbed.html
+
+3-
+
+<div class="row">
+    <div class="col-lg-12">
+    </div>
+</div>
+
+
+4-

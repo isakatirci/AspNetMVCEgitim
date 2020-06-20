@@ -26,5 +26,20 @@ namespace AspNetMVCEgitim.Controllers
 
             return View();
         }
+
+        public ActionResult UrunEkle()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult UrunListele()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
