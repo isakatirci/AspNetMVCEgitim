@@ -14,4 +14,4 @@ Team Explorer açılır. Fiş (Manage Connections) tıklanır ve Clone link buto
 
 3- Geçmişi görmek için (Home -> Branches[Çalışma Ortamı, master varsayılan çalışma ortamıdır])
 
-master brache nine sağ tıklanır ve View History seçilir.
+master brache nine sağ tıklanır ve View History seçilir ve işlem tamamlanır. 
