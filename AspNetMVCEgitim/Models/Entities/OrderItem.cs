@@ -1,4 +1,4 @@
-namespace AspNetMVCEgitim.Models
+namespace AspNetMVCEgitim.Models.Entities
 {
     using System;
     using System.Collections.Generic;

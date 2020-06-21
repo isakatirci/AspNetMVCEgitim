@@ -129,15 +129,16 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Customer.cs" />
-    <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\OrderItem.cs" />
-    <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\SampleDatabase.cs" />
-    <Compile Include="Models\Supplier.cs" />
+    <Compile Include="Models\Entities\Customer.cs" />
+    <Compile Include="Models\Entities\Order.cs" />
+    <Compile Include="Models\Entities\OrderItem.cs" />
+    <Compile Include="Models\Entities\Product.cs" />
+    <Compile Include="Models\Entities\SampleDatabase.cs" />
+    <Compile Include="Models\Entities\Supplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -147,7 +148,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="EgitimNotlari\datatables.html" />
     <Content Include="EgitimNotlari\GitHubdan.txt" />
+    <Content Include="EgitimNotlari\model-view-controller-light-blue.png" />
     <Content Include="EgitimNotlari\multi-column-forms.html" />
+    <Content Include="EgitimNotlari\MVCNotlari.txt" />
     <Content Include="EgitimNotlari\Notlar.txt" />
     <Content Include="EgitimNotlari\sample-data.sql" />
     <Content Include="EgitimNotlari\sample-model.sql" />
@@ -2540,6 +2543,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

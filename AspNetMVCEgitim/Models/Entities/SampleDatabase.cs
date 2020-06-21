@@ -1,4 +1,4 @@
-namespace AspNetMVCEgitim.Models
+namespace AspNetMVCEgitim.Models.Entities
 {
     using System;
     using System.Data.Entity;
@@ -8,7 +8,7 @@ namespace AspNetMVCEgitim.Models
     public partial class SampleDatabase : DbContext
     {
         public SampleDatabase()
-            : base("name=SampleDatabase")
+            : base("name=SampleDatabase1")
         {
         }
 

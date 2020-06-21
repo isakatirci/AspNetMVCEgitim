@@ -1,4 +1,4 @@
-﻿1- Team Explorer
+﻿1- Team Explorer dan Github işlemleri yapılır
 
 Değişikleri gönderdiğiniz yer (Home -> Change -> "Yorum eklenir" Commit All and Sync(Gönder ve Al))
 

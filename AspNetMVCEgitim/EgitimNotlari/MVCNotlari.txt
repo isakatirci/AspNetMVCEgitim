@@ -1,0 +1,20 @@
+﻿1- MVC nedir
+
+Model -> Veritabanına Operasyonları(CRUD -> Create Retieve Update Delete)
+View -> Html leriniz. UI kullanıcın gördüğü herşey
+Controller -> MOdel ile View arasında arıclık yapan kısım, balantıyı sağlayan kısım
+
+
+Model oluşturmanın bir çok yolu var
+
+Code First -> Eğitimde bunu kullanacağız
+Database First -> veritabanı büyüğünde BAKIMI(maintance) çok zor
+
+Not: Plurize seçili gelmişse kaldır
+
+Entities -> Tablolar demek
+
+
+2- base("name=SampleDatabase")  name olarak belirtilen isim web configdeki connnection string in adıdır
+
+3- ProductController mutlaka AMA MUTLAKA moduülün sonunda "Controller" yazmak zorunda!!!
