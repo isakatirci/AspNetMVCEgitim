@@ -146,6 +146,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="EgitimNotlari\datatables.html" />
+    <Content Include="EgitimNotlari\GitHubdan.txt" />
     <Content Include="EgitimNotlari\multi-column-forms.html" />
     <Content Include="EgitimNotlari\Notlar.txt" />
     <Content Include="EgitimNotlari\sample-data.sql" />

@@ -1,0 +1,17 @@
+﻿1- Team Explorer
+
+Değişikleri gönderdiğiniz yer (Home -> Change -> "Yorum eklenir" Commit All and Sync(Gönder ve Al))
+
+Commit All(Herşeyi kaydet)
+Push(Gönderir)
+Fetch(Alır ama bilgisayarınıza kaydetmez)
+Pull(Alır ve bilgisayara kaydeder)
+Sync(Gönder ve Al  [Pull & Push])
+
+2- Githubdan proje indirmek için
+
+Team Explorer açılır. Fiş (Manage Connections) tıklanır ve Clone link butonuna tıklanır
+
+3- Geçmişi görmek için (Home -> Branches[Çalışma Ortamı, master varsayılan çalışma ortamıdır])
+
+master brache nine sağ tıklanır ve View History seçilir.
