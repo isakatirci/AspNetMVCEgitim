@@ -2540,10 +2540,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\UrunEkle.cshtml" />
     <Content Include="Views\Home\UrunListele.cshtml" />
+    <Content Include="Views\Product\Ekle.cshtml" />
+    <Content Include="Views\Product\Sil.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

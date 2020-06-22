@@ -7,6 +7,10 @@ Controller -> MOdel ile View arasında arıclık yapan kısım, balantıyı sağ
 
 Model oluşturmanın bir çok yolu var
 
+Not: Model oluşturmak için Entites klasörüne sağ tıklanır
+Add new item -> Ado.net Entity Model Data
+
+
 Code First -> Eğitimde bunu kullanacağız
 Database First -> veritabanı büyüğünde BAKIMI(maintance) çok zor
 
@@ -17,4 +21,29 @@ Entities -> Tablolar demek
 
 2- base("name=SampleDatabase")  name olarak belirtilen isim web configdeki connnection string in adıdır
 
-3- ProductController mutlaka AMA MUTLAKA moduülün sonunda "Controller" yazmak zorunda!!!
+3- 
+Controllers sağ tıklanır 
+ProductController mutlaka AMA MUTLAKA moduülün sonunda "Controller" yazmak zorunda!!!
+
+4- View eklememk için metota sağ tıkla Add view yap
+
+5- Yeni bir html sayafası açıldığında
+
+   Aşağıdaki HTML leri kopyala
+
+<tr>
+    <td>
+        oda1
+    </td>
+</tr>
+
+
+<div class="row">
+    <div class="col-lg-12">
+    </div>
+</div>
+
+   xs (phones), sm (tablets), md (desktops), and lg (larger desktops)
+
+6-
+
