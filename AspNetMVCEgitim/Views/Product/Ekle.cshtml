@@ -14,23 +14,25 @@
         <div class="card card-custom">
             <div class="card-header card-header-tabs-line">
                 <div class="card-title">
-                    <h3 class="card-label">Card Title</h3>
+                    <h3 class="card-label">Ürün Tanıtım Kartı</h3>
                 </div>
                 <div class="card-toolbar">
                     <ul class="nav nav-tabs nav-bold nav-tabs-line">
                         <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#kt_tab_pane_1">Sekme1</a>
+                            <a class="nav-link active" data-toggle="tab" href="#kt_tab_pane_1">Genel Bilgiler</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#kt_tab_pane_2">Sekme2</a>
+                            <a class="nav-link" data-toggle="tab" href="#kt_tab_pane_2">Ürün Hareketleri</a>
                         </li>
-                       
-
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#Sekme_XmlEntegrasyon">XML Entegrasyon</a>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="card-body">
                 <div class="tab-content">
+
                     <div class="tab-pane fade show active" id="kt_tab_pane_1" role="tabpanel">
 
 
@@ -70,11 +72,11 @@
                                             <select class="form-control" id="IsDiscontinued" name="IsDiscontinued">
                                                 <option selected="selected" value="0">Hayır</option>
                                                 <option value="1">Evet</option>
-                                            </select>                                            
+                                            </select>
                                             <span class="form-text text-muted">Stokda varmı</span>
                                         </div>
                                     </div>
-                               
+
                                 </div>
                             </form>
                             <!--end::Form-->
@@ -88,10 +90,71 @@
                     <div class="tab-pane fade" id="kt_tab_pane_2" role="tabpanel">
 
 
+                        <!--begin::Card-->
+                        <div class="card card-custom gutter-b ">
+                            <div class="card-header">
+                                <h3 class="card-title">Ürün Hareketleri</h3>
+                                <div class="card-toolbar">
+                                </div>
+                            </div>
+                            <!--begin::Form-->
+                            <form class="form">
+                                <div class="card-body">
+                                    <div class="form-group row">
+                                        <div class="col-lg-2">
+                                            <label>Tarih : </label>
+                                            <input type="text" class="form-control" id="OrderDate" name="OrderDate" placeholder="" />
+                                            <span class="form-text text-muted">Tarih Seçiniz</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </form>
+                            <!--end::Form-->
+                        </div>
+                        <!--end::Card-->
 
 
                     </div>
-                    
+
+                    <div class="tab-pane fade" id="Sekme_XmlEntegrasyon" role="tabpanel">
+
+                        <!--begin::Card-->
+                        <div class="card card-custom gutter-b ">
+                            <div class="card-header">
+                                <h3 class="card-title">XML Entegrasyonu</h3>
+                                <div class="card-toolbar">
+                                </div>
+                            </div>
+                            <!--begin::Form-->
+                            <form class="form">
+                                <div class="card-body">
+                                    <div class="form-group row"> 
+                                        <div class="col-lg-6">
+                                            <label>Paket:</label>
+                                            <input type="text" class="form-control" id="Package" name="Package" placeholder="" />
+                                            <span class="form-text text-muted">Seo Bilgisi</span>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label>Stok Zorunlu:</label>
+                                            <select class="form-control" id="IsDiscontinued" name="IsDiscontinued">
+                                                <option selected="selected" value="0">Hayır</option>
+                                                <option value="1">Evet</option>
+                                            </select>
+                                            <span class="form-text text-muted">Stokda varmı</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <!--end::Form-->
+                        </div>
+                        <!--end::Card-->
+
+
+                    </div>
+
+
+
                 </div>
             </div>
             <div class="card-footer">
