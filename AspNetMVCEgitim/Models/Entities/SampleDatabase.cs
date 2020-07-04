@@ -8,7 +8,7 @@ namespace AspNetMVCEgitim.Models.Entities
     public partial class SampleDatabase : DbContext
     {
         public SampleDatabase()
-            : base("name=SampleDatabase")
+            : base("name=SampleDatabase2")
         {
         }
 

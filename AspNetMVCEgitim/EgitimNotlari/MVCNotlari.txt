@@ -2,7 +2,7 @@
 
 Model -> Veritabanına Operasyonları(CRUD -> Create Retieve Update Delete)
 View -> Html leriniz. UI kullanıcın gördüğü herşey
-Controller -> MOdel ile View arasında arıclık yapan kısım, balantıyı sağlayan kısım
+Controller -> MOdel ile View arasında aracılık yapan kısım, bağlantıyı sağlayan kısım
 
 
 Model oluşturmanın bir çok yolu var
@@ -45,5 +45,21 @@ ProductController mutlaka AMA MUTLAKA moduülün sonunda "Controller" yazmak zor
 
    xs (phones), sm (tablets), md (desktops), and lg (larger desktops)
 
-6-
+6- 
 
+head tag(</head>) lerine sayfanın şeklini tasarımı etkileyecek style lar yazılır
+
+body kapanış etikentinden önce (</body>) saftada yapılacak işlemlerin kodları yazılır. Mesala uyarı vermek
+
+id kullanıyorsanız # ile idyi yazmalıyız
+class kullanıyorsanız . ile idyi yazmalıyız
+
+7- ViewModel ad kombinasyonu = Modül Adı + View Adı + "ViewModel" mesale Product + Ekle + ViewModel = ProductEkleViewModel
+
+8- HTML tablodaki bir kaydı göstermek için mutlaka ViewModel
+
+9- @()  Ekranda viewmodel içindeki datayı göstermek için kullanılacak
+
+   @{} select e kullanmak için vardır
+
+10-  <text> </text> bunlar kullanarak c# içinde html kodlarını yazabilirsiniz.

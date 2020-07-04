@@ -29,6 +29,10 @@ namespace AspNetMVCEgitim.Models.Entities
         public string Package { get; set; }
 
         public bool IsDiscontinued { get; set; }
+        public bool? IsDeleted { get; set; }
+
+        [Column(TypeName = "datetime2")]
+        public DateTime? OrderDate { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<OrderItem> OrderItem { get; set; }

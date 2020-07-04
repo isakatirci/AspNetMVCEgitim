@@ -1,9 +1,11 @@
-﻿
+﻿@model AspNetMVCEgitim.Models.ViewModels.ProductEkleViewModel
+
 @{
     ViewBag.Title = "Ekle";
 }
 
-
+<h1>@(Model.BugununTarihi)</h1>
+<h1>@(Model.AdiSayadi )</h1>
 
 <div class="row">
     <div class="col-lg-12">
@@ -49,29 +51,45 @@
                                     <div class="form-group row">
                                         <div class="col-lg-6">
                                             <label>Product Name:</label>
-                                            <input type="text" class="form-control" id="ProductName" name="ProductName" placeholder="" />
+                                            <input type="text" class="form-control" id="ProductName" value="@(Model.Product?.ProductName)" name="ProductName" placeholder="" />
                                             <span class="form-text text-muted">Please enter product name</span>
                                         </div>
                                         <div class="col-lg-6">
                                             <label>Toptancı:</label>
-                                            <input type="text" class="form-control" id="SupplierId" name="SupplierId" placeholder="" />
+                                            <input type="text" class="form-control" id="SupplierId"  value="@(Model.Product?.SupplierId)" name="SupplierId" placeholder="" />
                                             <span class="form-text text-muted">Rakam giriniz.</span>
                                         </div>
                                         <div class="col-lg-12">
                                             <label>Fiyat:</label>
-                                            <input type="text" class="form-control" id="UnitPrice" name="UnitPrice" placeholder="" />
+                                            <input type="text" class="form-control" id="UnitPrice" value="@(Model.Product?.UnitPrice)" name="UnitPrice" placeholder="" />
                                             <span class="form-text text-muted">Fiyat giriniz.</span>
                                         </div>
                                         <div class="col-lg-4">
                                             <label>Paket:</label>
-                                            <input type="text" class="form-control" id="Package" name="Package" placeholder="" />
+                                            <input type="text" class="form-control" id="Package" value="@(Model.Product?.Package)"  name="Package" placeholder="" />
                                             <span class="form-text text-muted">Paket....</span>
                                         </div>
                                         <div class="col-lg-4">
                                             <label>Stok Zorunlu:</label>
                                             <select class="form-control" id="IsDiscontinued" name="IsDiscontinued">
-                                                <option selected="selected" value="0">Hayır</option>
-                                                <option value="1">Evet</option>
+                                                @{
+                                                    // Burası c# kodlarını yazacağınız yer
+                                                    if (Model.Product?.IsDiscontinued == true)
+                                                    {
+                                                        <text>
+                                                            <option selected="selected" value="1">Evet</option>
+                                                            <option value="0">Hayır</option>
+                                                        </text>
+                                                    }
+                                                    else
+                                                    {
+
+                                                        <text>
+                                                            <option value="1">Evet</option>
+                                                            <option selected="selected" value="0">Hayır</option>
+                                                        </text>
+                                                    }
+                                                }
                                             </select>
                                             <span class="form-text text-muted">Stokda varmı</span>
                                         </div>
@@ -103,7 +121,7 @@
                                     <div class="form-group row">
                                         <div class="col-lg-2">
                                             <label>Tarih : </label>
-                                            <input type="text" class="form-control" id="OrderDate" name="OrderDate" placeholder="" />
+                                            <input type="text" class="form-control" id="OrderDate"   value="@(Model.Product?.OrderDate)"   name="OrderDate" placeholder="" />
                                             <span class="form-text text-muted">Tarih Seçiniz</span>
                                         </div>
                                         
@@ -137,9 +155,29 @@
                                         </div>
                                         <div class="col-lg-6">
                                             <label>Stok Zorunlu:</label>
-                                            <select class="form-control" id="IsDiscontinued" name="IsDiscontinued">
-                                                <option selected="selected" value="0">Hayır</option>
-                                                <option value="1">Evet</option>
+                                            <select class="form-control" id="IsDeleted" name="IsDeleted">
+                                                @{
+                                                    // Burası c# kodlarını yazacağınız yer
+                                                    if (Model.Product?.IsDeleted == true)
+                                                    {
+                                                        <text>
+                                                            <option  value="1">Evet</option>
+                                                            <option value="0">Hayır</option>
+                                                            <option selected="selected" value="2">Hepsi</option>
+                                                
+                                                        </text>
+                                                    }
+                                                    else
+                                                    {
+
+                                                        <text>
+                                                            <option value="1">Evet</option>
+                                                            <option selected="selected" value="0">Hayır</option>
+                                                        </text>
+                                                    }
+                                                }
+
+                                               
                                             </select>
                                             <span class="form-text text-muted">Stokda varmı</span>
                                         </div>
